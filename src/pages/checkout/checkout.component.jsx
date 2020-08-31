@@ -9,6 +9,7 @@ import { createStructuredSelector } from 'reselect';
 import { selectCartItems , selectCartTotal } from '../../redux/cart/cart.selectors';
 
 import './checkout.styles.scss';
+
 import CartItem from '../../components/cart-item/cart-item.component';
 
 const CheckOutPage = ({ cartItems , total }) => (
