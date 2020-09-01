@@ -20,14 +20,16 @@ import { selectCurrentUser } from '../../redux/user/user.selectors';
 
 import './header.styles.scss';
 
-const  Header = ({ currentUser , hidden }) => (
+const  Header = ({ currentUser , hidden }) => {
+    console.log(currentUser)
+    return(
     <div className="header">
        <Link className="logo-container" to="/">
            <Logo className='logo'/>
        </Link>
        <div className="options">
            <Link className="option" to="/shop">Shop</Link>
-           <Link className="option" to="/shop">Contact</Link>
+           <Link className="option" to="/">Contact</Link>
            {
                currentUser ?
                (
@@ -43,7 +45,7 @@ const  Header = ({ currentUser , hidden }) => (
          hidden? null : <CartDropdown/>
        }
     </div>
-)
+)}
 
 const mapStateToProps = createStructuredSelector({
     currentUser: selectCurrentUser,
