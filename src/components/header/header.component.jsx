@@ -32,12 +32,8 @@ const  Header = ({ currentUser , hidden }) => {
            <Link className="option" to="/">Contact</Link>
            {
                currentUser ?
-               (
-               <div className='option' onClick={() => auth.signOut()}>Sign Out</div>
-               ):
-               (
-               <Link className='option' to='/signin'>Sign In</Link>
-               )
+              ( <Link className='option' onClick={ () => auth.signOut()}>Sign Out</Link>)
+               :( <Link className='option' to='/signin'>Sign In</Link>)
            }
            <CartIcon/>
        </div>

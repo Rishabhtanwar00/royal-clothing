@@ -43,7 +43,7 @@ class App extends React.Component {
         });
       }
       else{
-      setCurrentUser({ userAuth });
+      setCurrentUser(null);
       }
     });
   }
@@ -60,7 +60,17 @@ class App extends React.Component {
           <Route exact path='/' component={ HomePage }/>
           <Route  path='/shop' component={ ShopPage }/>
           <Route excat path='/checkout' component={ CheckOutPage }/>
-          <Route excat path='/signin' component={  SignInAndSignUpPage}/>
+          <Route 
+             exact
+             path='/signin'
+             render={ () => 
+                 this.props.currentUser !=null ? (
+                   <Redirect to='/' />
+                 ): (
+                   <SignInAndSignUpPage/>
+                 )
+            }
+          />
         </Switch>
       </div>
     );
