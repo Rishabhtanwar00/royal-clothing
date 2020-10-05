@@ -5,14 +5,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config ={
-    apiKey: "AIzaSyCKOlCV4bH2XffznHqTpR4WUPMoaq80NFY",
-    authDomain: "royal-clothing-ad232.firebaseapp.com",
-    databaseURL: "https://royal-clothing-ad232.firebaseio.com",
-    projectId: "royal-clothing-ad232",
-    storageBucket: "royal-clothing-ad232.appspot.com",
-    messagingSenderId: "753111115146",
-    appId: "1:753111115146:web:063385f0923b20d092d473",
-    measurementId: "G-D2957MJJ6B"
+  apiKey: "AIzaSyAeMDdbIHXJu667vhR-IfSzndTkIvGZBSA",
+  authDomain: "royalclthng.firebaseapp.com",
+  databaseURL: "https://royalclthng.firebaseio.com",
+  projectId: "royalclthng",
+  storageBucket: "royalclthng.appspot.com",
+  messagingSenderId: "714232075673",
+  appId: "1:714232075673:web:2f9697f8b2e6baf089ef08",
+  measurementId: "G-194YE947ZK"
   };
 
 
