@@ -5,14 +5,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config ={
-  apiKey: "AIzaSyAeMDdbIHXJu667vhR-IfSzndTkIvGZBSA",
-  authDomain: "royalclthng.firebaseapp.com",
-  databaseURL: "https://royalclthng.firebaseio.com",
-  projectId: "royalclthng",
-  storageBucket: "royalclthng.appspot.com",
-  messagingSenderId: "714232075673",
-  appId: "1:714232075673:web:2f9697f8b2e6baf089ef08",
-  measurementId: "G-194YE947ZK"
+  apiKey: "AIzaSyD7klWABzybG62y6YEqAOCvkBi3s9D-b0k",
+  authDomain: "royal-clothng.firebaseapp.com",
+  databaseURL: "https://royal-clothng.firebaseio.com",
+  projectId: "royal-clothng",
+  storageBucket: "royal-clothng.appspot.com",
+  messagingSenderId: "920111681234",
+  appId: "1:920111681234:web:a6425b9e27d0959a61e70b",
+  measurementId: "G-S2CSKJ86WG"
   };
 
 
