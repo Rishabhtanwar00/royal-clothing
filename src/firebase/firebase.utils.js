@@ -5,13 +5,13 @@ import "firebase/firestore";
 import "firebase/auth";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAUFxibxlzLaV8BLu2BCNxmNr1TkhXap-0",
-  authDomain: "royal-clothing-ced54.firebaseapp.com",
-  projectId: "royal-clothing-ced54",
-  storageBucket: "royal-clothing-ced54.appspot.com",
-  messagingSenderId: "578135284917",
-  appId: "1:578135284917:web:ef709b67fe0610e17732fc",
-  measurementId: "G-4G015NPNGH",
+  apiKey: "AIzaSyC-ofZAkLAZsWDDEFZBwwR1y5LE7oh-kkU",
+  authDomain: "royalclothing-16e9f.firebaseapp.com",
+  projectId: "royalclothing-16e9f",
+  storageBucket: "royalclothing-16e9f.appspot.com",
+  messagingSenderId: "711978703425",
+  appId: "1:711978703425:web:8c7b7c94719e3b1fcac4c0",
+  measurementId: "G-4F0P09E79G",
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
